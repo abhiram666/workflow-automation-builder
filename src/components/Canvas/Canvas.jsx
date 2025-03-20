@@ -1,15 +1,9 @@
-import React, { useCallback } from 'react';
-import ReactFlow, {
-  Controls,
-  Background,
-  useNodesState,
-  useEdgesState,
-  addEdge,
-} from 'reactflow';
-import 'reactflow/dist/style.css';
-import TaskNode from '../NodeTypes/TaskNode';
-import ConditionNode from '../NodeTypes/ConditionNode';
-import NotificationNode from '../NodeTypes/NotificationNode';
+import React, { useCallback } from "react";
+import ReactFlow, { Background, Controls } from "reactflow";
+import "reactflow/dist/style.css";
+import ConditionNode from "../NodeTypes/ConditionNode";
+import NotificationNode from "../NodeTypes/NotificationNode";
+import TaskNode from "../NodeTypes/TaskNode";
 
 const nodeTypes = {
   task: TaskNode,
